@@ -24,10 +24,17 @@ public class Main {
         System.out.println(arrayList.contains("b"));
         System.out.println(arrayList.indexOf("A"));
 
-        arrayList.add(2);
-        arrayList.add(3.1415);
-        int a = (int) arrayList.get(3);
-        System.out.println(a);
+//        arrayList.add(2);
+//        arrayList.add(3.1415);
+//        int a = (int) arrayList.get(3);
+//        System.out.println(a);
+
+        ArrayList<Integer> arr2 = new ArrayList<Integer>(1000);
+        arr2.add(2);
+        arr2.add(3);
+        int a = arr2.get(1);
+        System.out.println();
+
 
 
     }
